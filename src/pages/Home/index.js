@@ -29,7 +29,7 @@ const Home = () => {
                         of your house
                     </p>
 
-                    <button className="btn btn-bg btn-primary nunito-bold">
+                    <button id="order-button" className="btn btn-bg btn-primary nunito-bold">
                         make your order
                     </button>
 
@@ -50,6 +50,7 @@ const Home = () => {
                     </div>
 
                 </div>
+
             </section>
         </div>
     )

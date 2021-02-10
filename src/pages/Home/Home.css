@@ -5,7 +5,7 @@
     align-items: center;
 
     overflow: hidden;
-    min-height: 100vh;
+    min-height: calc(100vh - 6.5rem);
 }
 
 #home-container{
@@ -63,10 +63,53 @@
 }
 
 .btn-bg{
-    padding: .6rem 2.5rem;
+    padding: .6rem 3rem;
     font-size: 1.5em;
 }
 
 .nunito-bold{
     font-family: 'Nunito-Bold', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #Home {
+        padding: 0 2rem;
+        align-items: unset;
+
+        padding-top: 8rem;
+
+        min-height: calc(100vh - 14rem);
+    }
+
+    #home-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 1.2rem;
+    }
+
+    #shapes .shape1{
+        height: 450px;
+        top: -6rem;
+        left: -15rem;
+    }
+    #shapes .shape2{
+        height: 450px;
+        top: 10rem;
+        right: -20rem;
+    }
+    #shapes .coffe{
+        display: none;
+    }
+
+    #social-icons{
+        margin-top: auto;
+    }
+
+    .btn-bg{
+        font-size: 1.2rem;
+    }
 }

@@ -22,3 +22,30 @@
     color: unset;
     text-decoration: none;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+    #header {
+        display: block;
+        padding: 0;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+
+        margin-top: 10px;
+    }
+    
+    #links-list{
+        padding: 5px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    #links-list li{
+        padding: 10px 25px;
+    }
+
+    #order-button{
+        margin-top: 2.5rem;
+    }
+}
